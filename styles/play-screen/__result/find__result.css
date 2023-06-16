@@ -1,0 +1,13 @@
+.find__result {
+    /* border: 1px solid #000; */
+    width: 400px;
+    height: 200px;
+    display: none;
+}
+
+.find__result_visible {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}

@@ -1,0 +1,39 @@
+@keyframes colorChange { 
+    0%{
+        background-position:100% 100%;
+        opacity: 0;
+    }
+
+    5% {
+        opacity: 1;
+        background-position:100% 100%
+    }
+
+    90% {
+        opacity: 1;
+        background-position:0% 0%
+    }
+
+    100%{
+        background-position:0% 0%;
+        opacity: 0;
+    }
+}
+
+
+
+.start-screen__subtext {
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    line-height: 26px;
+    font-size: 16px;
+    background-color: rgba(77, 184, 236, 1);
+
+    background-image: linear-gradient(180deg, #fff 50%, #251543 50%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 200% 200%;
+    animation: colorChange 6s infinite;
+}
+

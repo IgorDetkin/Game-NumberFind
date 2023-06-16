@@ -1,0 +1,17 @@
+.info-screen__goals-button {
+    width: 177px;
+    height: 56px;
+    font-weight: 500;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #fff;
+    border: 1px solid #6039aa;
+    background-color: #6039aa;
+    border-radius: 50px;
+}
+
+.info-screen__goals-button:hover {
+    opacity: 0.8;
+    box-shadow: 0px 0px 20px rgba(136, 136, 136, 0.6);
+}

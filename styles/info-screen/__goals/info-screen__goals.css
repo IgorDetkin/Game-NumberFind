@@ -1,0 +1,8 @@
+.info-screen__goals {
+    height: 392px;
+    padding: 30px 45px 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}

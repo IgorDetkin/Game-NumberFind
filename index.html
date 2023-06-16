@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css" />
+    <title>game</title>
+</head>
+
+<body class="root">
+  <div class="root__wrapper"></div> 
+
+
+  <div class="root__container">
+
+  <section class="info-screen">
+    <div class="info-screen__title-category">
+        <div class="info-screen__title-category-wrap">
+        <h1 class="info-screen__title">Найди число</h1>
+        <p class="info-screen__category">Тренажер на внимание</p>
+      </div>
+    </div>
+
+    <div class="info-screen__goals">
+      <h2 class="info-screen__goals-title">Тренирует:</h2>
+      <ul class="info-screen__goals-list">
+        <li class="info-screen__goals-list-item">
+          <img src="https://wikium.ru/games_build/images/128602f8e9250178e66479318c8b7908.svg" alt="goal" class="info-screen__goals-list-item-img">
+          <p class="info-screen__goals-list-item-text">Произвольное внимание</p>
+        </li>
+
+        <li class="info-screen__goals-list-item">
+          <img src="https://wikium.ru/games_build/images/128602f8e9250178e66479318c8b7908.svg" alt="goal" class="info-screen__goals-list-item-img">
+          <p class="info-screen__goals-list-item-text">Концентрацию и переключение внимания</p>
+        </li>
+
+        <li class="info-screen__goals-list-item">
+          <img src="https://wikium.ru/games_build/images/128602f8e9250178e66479318c8b7908.svg" alt="goal" class="info-screen__goals-list-item-img">
+          <p class="info-screen__goals-list-item-text">Зрительное восприятие</p>
+        </li>
+      </ul>
+      <button class="info-screen__goals-button">Далее</button>
+    </div>
+  </section>
+
+
+
+  <section class="start-screen" id="buttonStart">
+    <div class="start-screen__container">
+      <div class="task">
+        Найдите указанное число: <strong class="task__value">79</strong>
+      </div>
+
+      <div class="start-screen__shape"></div>
+      <p class="start-screen__subtext">
+        Нажмите на экран, чтобы продолжить
+      </p>
+    
+    </div>
+  </section>
+
+  <section class="timer-screen">
+    <div class="timer-screen__wrap">
+      <h2 class="timer-screen__number">3</h2>
+    </div>
+  </section>
+  
+  <section class="find">
+      <nav class="nav">
+        <p class="nav__element">time: <strong id="time"></strong></p>
+        <p class="nav__element">score: <strong id="score">0</strong></p>
+      </nav>
+
+      <div class="find__container">
+        <div class="task">
+          Найдите указанное число: <strong class="task__value realgame">4</strong>
+        </div>
+        <div class="find__chance-container">
+          <button class="find__variant">3</button>
+          <button class="find__variant">2</button>
+          <button class="find__variant">5</button>
+          <button class="find__variant">6</button>
+          <button class="find__variant">8</button>
+          <button class="find__variant">4</button>
+          <button class="find__variant">1</button>
+          <button class="find__variant">2</button>
+        </div>
+
+        <div class="find__result">
+          <p class="find__result-text">ваш результат: <strong id="score-result"></strong></p>
+          <button class="find__omt">еще раз</button>
+        </div>
+
+
+
+
+      </div>
+  </section>
+
+
+</div>
+  <script src="./index2.js"></script>
+</body>
+</html>

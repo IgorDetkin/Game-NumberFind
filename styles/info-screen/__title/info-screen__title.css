@@ -1,0 +1,8 @@
+.info-screen__title {
+    margin: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 800;
+    line-height: 26px;
+    font-size: 36px;
+    color: #fff;
+}

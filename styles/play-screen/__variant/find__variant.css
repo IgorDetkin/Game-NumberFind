@@ -1,0 +1,14 @@
+.find__variant {
+    width: 23.4%;
+    height: 40px;
+    background-color: aquamarine;
+    cursor: pointer;
+
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.find__variant:hover {
+    background-color: rgba(127, 255, 212, 0.8);
+}

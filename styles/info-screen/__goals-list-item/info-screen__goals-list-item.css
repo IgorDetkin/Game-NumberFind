@@ -1,0 +1,5 @@
+.info-screen__goals-list-item {
+    display: flex;
+    flex-direction: row;
+    column-gap: 14px;
+}
