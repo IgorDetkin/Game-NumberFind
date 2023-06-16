@@ -1,9 +1,14 @@
 
 @import url(./utils/normalize.css);
 @import url(./styles/root/root.css);
+
 @import url(./styles/info-screen/info-screen.css);
 @import url(./styles/info-screen/__category/info-screen__category.css);
-@import url(./styles/info-screen/__goals-button/info-screen__goals-button.css);
+
+/* @import url(./styles/info-screen/__goals-button/info-screen__goals-button.css); */
+@import url(../game-find-number/styles/info-screen/__goals-button/info-screen__goals-button.css);
+
+
 @import url(./styles/info-screen/__goals-list-item-img/info-screen__goals-list-item-img.css);
 @import url(./styles/info-screen/__goals-list-item-text/info-screen__goals-list-item-text.css);
 @import url(./styles/info-screen/__goals-list-item/info-screen__goals-list-item.css);
