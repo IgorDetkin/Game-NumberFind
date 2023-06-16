@@ -24,7 +24,7 @@ const readyLayer = document.querySelector('.timer-screen');
 
 
 let timer;
-let time = 10;
+let time = 15;
 timeTable.textContent = `00:${time}`;
 
 
@@ -42,11 +42,11 @@ let reverseNumberTimer;
 
 function startGame() {
     maxvalue = 8;
-    time= 10;
+    time= 15;
     countResult = 0;
     scoreTable.textContent = countResult;
     timer = setInterval(countdownTime, 1000);
-    setTime(time); 
+    setTime(time);
 }
 
 //обратный отсчет времени игры
@@ -72,7 +72,7 @@ function setTime(value) {
 
 
 function finishGame() {
-    timeTable.textContent = 'Stop'; 
+    timeTable.textContent = 'Stop';
     chanceButtonsContainer.replaceChildren();
     // chanceButtonsContainer.classList.add('find__chance-container_hidden');
 }
@@ -90,7 +90,7 @@ function addPoints() {
     if(chanceButtonsContainer.children.length > 25) {
         return countResult+=10
     }
-    
+
     else if(chanceButtonsContainer.children.length > 16) {
         return countResult+=5
     }
@@ -103,7 +103,7 @@ function addPoints() {
 
 
 //функция клика по кнопке ответа
-function nextValue(event) {  
+function nextValue(event) {
     if(event.target.textContent == buttonNext.textContent) {
         goodClick()
     }
@@ -137,16 +137,16 @@ function goodClick() {
 // добавление кнопок на каждый второй успешный ответ.
 function addNewButtons() {
     let countOfNewButtons = 0;
-    
+
     //если это второй правильный ответ подряд, то тогда добавить новые кнопки
     if(CountGoodCallsOfNextValue % 2) {
 
 
         // console.log('добавить кнопки')
         if (chanceButtonsContainer.children.length >= 34) {
-            countOfNewButtons = 0; 
+            countOfNewButtons = 0;
         }
-       
+
         else if (chanceButtonsContainer.children.length >= 20) {
             countOfNewButtons = countOfNewButtons + 11;
             // console.log('kol-vo elements' + chanceButtonsContainer.children.length)
@@ -154,7 +154,7 @@ function addNewButtons() {
             widthButton = 15.5;
             chanceButtonsContainer.style.gap = '6.5px';
         }
-       
+
         else if(chanceButtonsContainer.children.length >= 16) {
             countOfNewButtons = countOfNewButtons + 9;
             // console.log('kol-vo elements' + chanceButtonsContainer.children.length)
@@ -166,7 +166,7 @@ function addNewButtons() {
         else {
             countOfNewButtons = countOfNewButtons + 4;
             // console.log('сколько кнопок добавить: ' + countOfNewButtons);
-        }        
+        }
     }
 
 
