@@ -236,6 +236,7 @@ function playAgain() {
     resultTable.classList.remove('find__result_visible');
     chanceButtonsContainer.replaceChildren(...chanceButtonsContainerClone.children);
     buttonNext.textContent = 5;
+    scoreTable.textContent = 0;
 }
 
 buttonOneMoreTime.addEventListener('click', playAgain);

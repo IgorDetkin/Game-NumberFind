@@ -4,13 +4,7 @@
 
 @import url(../blocks/info-screen/info-screen.css);
 @import url(../blocks/info-screen/__category/info-screen__category.css);
-
-
-
 @import url(../blocks/info-screen/__goals-button/info-screen__goals-button.css);
-
-
-
 @import url(../blocks/info-screen/__goals-list-item-img/info-screen__goals-list-item-img.css);
 @import url(../blocks/info-screen/__goals-list-item-text/info-screen__goals-list-item-text.css);
 @import url(../blocks/info-screen/__goals-list-item/info-screen__goals-list-item.css);
