@@ -1,0 +1,42 @@
+
+@import url(../utils/normalize.css);
+@import url(../blocks/root/root.css);
+
+@import url(../blocks/info-screen/info-screen.css);
+@import url(../blocks/info-screen/__category/info-screen__category.css);
+@import url(../blocks/info-screen/__goals-button/info-screen__goals-button.css);
+@import url(../blocks/info-screen/__goals-list-item-img/info-screen__goals-list-item-img.css);
+@import url(../blocks/info-screen/__goals-list-item-text/info-screen__goals-list-item-text.css);
+@import url(../blocks/info-screen/__goals-list-item/info-screen__goals-list-item.css);
+@import url(../blocks/info-screen/__goals-list/info-screen__goals-list.css);
+@import url(../blocks/info-screen/__goals-title/info-screen__goals-title.css);
+@import url(../blocks/info-screen/__goals/info-screen__goals.css);
+@import url(../blocks/info-screen/__title-category-wrap/info-screen__title-category-wrap.css);
+@import url(../blocks/info-screen/__title-category/info-screen__title-category.css);
+@import url(../blocks/info-screen/__title/info-screen__title.css);
+
+
+@import url(../blocks/start-screen/start-screen.css);
+@import url(../blocks/start-screen/__container/start-screen__container.css);
+@import url(../blocks/start-screen/__shape/start-screen__shape.css);
+@import url(../blocks/start-screen/__subtext/start-screen__subtext.css);
+
+
+@import url(../blocks/timerscreen/timerscreen.css);
+
+@import url(../blocks/play-screen/find.css);
+@import url(../blocks/play-screen/__chance-container/find__chance-container.css);
+@import url(../blocks/play-screen/__container/find__container.css);
+@import url(../blocks/play-screen/__omt/find__omt.css);
+@import url(../blocks/play-screen/__result-text/find__result-text.css);
+@import url(../blocks/play-screen/__result/find__result.css);
+@import url(../blocks/play-screen/__variant/find__variant.css);
+
+@import url(../blocks/nav/nav.css);
+@import url(../blocks/nav/__element/nav__element.css);
+
+@import url(../blocks/task/task.css);
+@import url(../blocks/task/__value/tasl__value.css);
+
+
+
